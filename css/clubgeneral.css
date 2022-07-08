@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "real.madrid.otf";
+    src: url(../res/font/FFF_Real_Madrid_2021.otf);
+}
+
+body {
+    background-image: url(../res/img/converti/vc1.webp);
+    margin-bottom: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    font-family: "real.madrid.otf", sans-serif;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    height: 100%;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: #614e1a;
+    height: 80px;
+    padding-top: 0px;
+    margin: 6px;
+    background-color: black;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.container {
+    width: 22%;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #00c93d;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    width: 500px;
+    border-radius: 10%;
+    margin: 1%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

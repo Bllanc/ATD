@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "real.madrid.otf";
+  src: url(../res/font/FFF_Real_Madrid_2021.otf);
+}
+
+body {
+  background-image: url(../res/img/converti/vc2.webp);
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  font-family: "real.madrid.otf", sans-serif;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  height: 100%;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: #ad780c;
+  height: 80px;
+  padding-top: 0px;
+  margin: 6px;
+  background-color: black;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.user {
+  font-size: 5rem;
+  font-family: "real.madrid.otf";
+  color: #ad780c;
+  text-decoration: none;
+}
+
+input.user {
+  height: 50px;
+  background-color: transparent;
+  color: #ad780c;
+}
+
+a {
+  text-decoration: none;
+  color: #3caadc;
+}
+
+body {
+  background-image: url(../res/img/converti/vc2.webp);
+  display: flex;
+  justify-content: center;
+  flex-direction: columns;
+  align-items: center;
+  font-family: "real.madrid.otf";
+  font-size: 3rem;
+  text-align: center;
+}
+
+header {
+  width: 40%;
+  background-color: #242424;
+}
+
+h1 {
+  color: #e4149d;
+  text-align: center;
+  font-family: "real.madrid.otf";
+  font-size: 5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  padding: -30%;
+  width: 100%;
+  color: #3caadc;
+}
+
+form p.choose-email {
+  text-align: center;
+  font-family: "real.madrid.otf";
+  font-size: 3rem;
+  color: #ad780c;
+}
+
+form .inputs {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  font-family: "real.madrid.otf";
+}
+
+form .inputs input[type="email"],
+input[type="password"] {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: "real.madrid.otf";
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.inscription {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "real.madrid.otf";
+  color: #00c93d;
+}
+
+form p.inscription span {
+  font-family: "real.madrid.otf";
+  color: #614e1a;
+}
+
+form button {
+  padding-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 4rem;
+  font-family: "real.madrid.otf";
+}
+
+button {
+  padding-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 4rem;
+  background-color: #00000026;
+  font-family: "real.madrid.otf";
+  color: #e4149d;
+}
+
+.choose-email {
+  font-size: 4rem;
+  font-family: "real.madrid.otf";
+  color: #00c93d;
+}
+
+input[type="password"] {
+  margin-bottom: 3%;
+  font-size: 4rem;
+  border-radius: 5%;
+  background-color: #00000026;
+  font-family: "real.madrid.otf";
+  text-align: center;
+  color: #e4149d;
+}
+
+input[type="email"i] {
+  width: 80%;
+  margin-bottom: 3%;
+  font-size: 4rem;
+  border-radius: 5%;
+  background-color: #00000026;
+  font-family: "real.madrid.otf";
+  text-align: center;
+  color: #e4149d;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 3%;
+  font-size: 4rem;
+  border-radius: 5%;
+  background-color: #00000026;
+  font-family: "real.madrid.otf";
+  text-align: center;
+  color: #e4149d;
+}
